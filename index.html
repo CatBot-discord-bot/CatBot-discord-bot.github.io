@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>CatBot Discord bot</title>
+<link rel=icon href=favicon.ico>
+<meta property="url" content="https://andrewsabnormal.com/"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #0ed31e;
+  color: white;
+}
+
+.footer {
+  padding: 80px;
+  text-align: center;
+  background: #d30e0e3a;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+
+.header h5 {
+  font-size: 10px;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #3a5a46;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar b {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+
+/* Left-aligned link */
+.navbar a.center {
+  float: none;
+  position: absolute;
+  top: 60.89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column {
+float: left;
+width: 33.33%;
+}
+/* The floats after the columns are cleared */
+.row:after {
+content: “”;
+display: table;
+clear: both;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 5%;
+  background-color: #ee0000;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 5%;
+  background-color: rgb(247, 153, 11);
+  padding: 20px;
+}
+
+.otherside {   
+  flex: 5%;
+  background-color: rgb(232, 248, 12);
+  padding: 20px;
+}
+
+.otherside2 {  
+  flex: 5%;
+  background-color: rgb(5, 248, 25);
+  padding: 20px;
+}
+
+.otherside3 {
+  flex: 5%;
+  background-color: rgb(17, 0, 253);
+  padding: 20px;
+}
+
+.otherside4 {
+  flex: 5%;
+  background-color: rgba(148, 39, 158, 0.418);
+  padding: 20px;
+
+}
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="./index.html">Home</a>
+  <a href="mailto://andrewisabnormal@gmail.com">Support</a>
+</div>
+</body>
